@@ -53,3 +53,29 @@
     --fw-regular: 400;
     --fw-bold: 600;
   }
+
+  body{
+    background-color: var(--clr-primary-500);
+    padding: 3rem;
+    display: grid;
+    gap: 4rem;
+    text-align: center;
+    color: white;
+    font-family: var(--ff-base);
+    
+  }
+
+  .hero-image{
+    margin-bottom: 4rem;;
+  }
+
+  .CTA-wrapper>*:not(:last-child){
+   margin-bottom: 1.3rem;
+  
+  }
+
+  .btn-primary{
+    font-size: 0.8rem;
+    color: var(--clr-primary-500);
+    font-weight: var(--fw-bold);
+  }
