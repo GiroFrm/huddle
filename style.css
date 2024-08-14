@@ -44,3 +44,10 @@
   #root, #__next {
     isolation: isolate;
   }
+
+  :root{
+    --clr-primary-500: hsl(257, 40%, 49%);
+    --clr-secondary-300: hsl(300, 69%, 71%);
+
+    
+  }
