@@ -54,6 +54,10 @@
     --fw-bold: 600;
   }
 
+
+  .margin-bottom-600{
+    margin-bottom: 4rem;
+  }
   body{
     background-color: var(--clr-primary-500);
     padding: 3rem;
@@ -64,12 +68,9 @@
     
   }
 
-  body>*:not(:last-child){
-   margin-bottom: 4rem;
-  }
 
   .hero-image{
-    margin-bottom: 4rem;;
+    
   }
 
   .CTA-wrapper>*:not(:last-child){
